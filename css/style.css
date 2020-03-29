@@ -1,0 +1,12 @@
+@import url(header.css);
+@import url(index.css);
+
+/* Footer */
+footer {
+ text-align: center;
+ grid-area: footer;
+}
+
+footer * {
+    margin: 5px;
+}

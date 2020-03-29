@@ -1,0 +1,33 @@
+/* This file contains formatting for the header sections of the webpages */
+
+header {
+  background: linear-gradient(90deg, red, 25%, blue);
+  grid-area: header;
+}
+
+.header-text {
+    left: 25px;
+    font-size: 95px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin: 10px;
+}
+
+/* Navbar */
+
+nav > a {
+  padding: 10px;
+  font-size: 12px;
+  line-height: 35px;
+  text-decoration: none;
+  color: white;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+nav > a:hover {
+  background: black;
+}
+
+nav > a.active {
+  background: blue;
+}

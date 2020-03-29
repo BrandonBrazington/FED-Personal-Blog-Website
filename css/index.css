@@ -1,0 +1,16 @@
+body {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-template-areas:
+    "header    header"
+    "posts   subscribe"
+    "footer    footer";
+}
+
+.blog-posts-section {
+  grid-area: posts;
+}
+
+.subscribe-section {
+  grid-area: subscribe;
+}
