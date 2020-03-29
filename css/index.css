@@ -7,10 +7,46 @@ body {
     "footer    footer";
 }
 
+.subscribe-section {
+  grid-area: subscribe;
+}
+
 .blog-posts-section {
   grid-area: posts;
 }
 
-.subscribe-section {
-  grid-area: subscribe;
+.blog-post-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog-post-card {
+  width: 400px;
+  height: 400px;
+  border: 4mm ridge green;
+  padding: 5px;
+  margin: 5px;
+}
+
+.form-input-and-label {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin: 5px;
+}
+
+.subscribe-button {
+  width: 100%;
+  padding: 7px 13px;
+  background-color: #b12121;
+  color: white;
+  text-decoration: none;
+  border-radius: 55px;
+  border: 1px solid #b12121;
+  font-weight: bold;
+}
+
+.non-functioning {
+    background-color: yellow;
+    border: 1px dashed red;
+    padding: 3px;
 }
