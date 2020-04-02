@@ -1,0 +1,21 @@
+@import url(header.css);
+@import url(footer.css);
+@import url(author-info.css);
+
+.blog-post-title {
+  margin-bottom: 5px;
+}
+
+.blog-post-date-author {
+  margin-top: 0;
+  font-size: 0.8em;
+  color: darkslategrey;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+.underline {
+  text-decoration: underline;
+}

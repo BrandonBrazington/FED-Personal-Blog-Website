@@ -1,0 +1,23 @@
+.author-info {
+  border: black 1px solid;
+  padding: 10px;
+}
+
+.author-info-flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.author-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.social-links {
+  text-align: center;
+}
+
+.social-links * {
+  padding: 5px;
+}

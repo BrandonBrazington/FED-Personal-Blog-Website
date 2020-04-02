@@ -1,0 +1,10 @@
+/* This file contains formatting for the footer sections of the webpages */
+
+footer {
+  text-align: center;
+  grid-area: footer;
+}
+
+footer * {
+  margin: 5px;
+}

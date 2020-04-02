@@ -6,11 +6,11 @@ header {
 }
 
 .header-text {
-    left: 25px;
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 100;
-    margin: 10px;
+  left: 25px;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  margin: 10px;
 }
 
 /* Navbar */
